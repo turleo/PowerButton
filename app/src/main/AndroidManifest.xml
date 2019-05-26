@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="exa.open.pb"
+    package="space.bm835.pb"
     android:versionCode="1"
     android:versionName="1">
 
@@ -14,7 +14,7 @@
         tools:ignore="GoogleAppIndexingWarning,RtlEnabled"
         tools:targetApi="donut">
         <activity
-            android:name=".TurnOffActivity"
+            android:name="space.bm835.pb.TurnOffActivity"
             android:label="Turn off" >
             <intent-filter>
             <action android:name="android.intent.action.MAIN" />
@@ -22,7 +22,7 @@
         </intent-filter></activity>
 
         <receiver
-            android:name=".AdminManager"
+            android:name="space.bm835.pb.AdminManager"
             android:permission="android.permission.BIND_DEVICE_ADMIN">
             <meta-data android:name="android.app.device_admin"
                 android:resource="@xml/device_admin_info" />
@@ -31,10 +31,10 @@
                 <action android:name="android.app.action.DEVICE_ADMIN_DISABLED" />
             </intent-filter>
         </receiver>
-        <receiver android:name=".Widget" >
+        <receiver android:name="space.bm835.pb.Widget" >
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
-                <action android:name="exa.open.pb.Widget.ACTION_WIDGET_CLICKED"/>
+                <action android:name="space.bm835.pb.Widget.ACTION_WIDGET_CLICKED"/>
             </intent-filter>
             <meta-data android:name="android.appwidget.provider"
                 android:resource="@xml/widget_provider" />
