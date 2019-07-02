@@ -24,7 +24,7 @@ class AboutActivity : AppCompatActivity() {
         val componentName = ComponentName(this, AdminManager::class.java)
         devicePolicyManager.removeActiveAdmin(componentName)
         val packageURI = Uri.parse("package:space.bm835.pb")
-        val uninstallIntent = Intent(Intent.ACTION_DELETE, packageURI)
+        val uninstallIntent = Intent(Intent.ACTION_UNINSTALL_PACKAGE, packageURI)
         startActivity(uninstallIntent)
     }
 

@@ -3,8 +3,8 @@
     <string name="please_grant">Please grant this app permission in order to use selected features</string>
      
     <string name="crash_toast_text">An error found</string>
-    <string name="about">Software power button\nGitHub: https://github.com/BM835/PowerButton</string>
-    <string name="about_act">About</string>
-    <string name="Uninstall">Give back admin rights</string>
+    <string name="about">Software power button\nGitHub: https://github.com/BM835/PowerButton\nSite: https://bm835.space/PowerButton/</string>
+    <string name="Uninstall">Delete</string>
     <string name="about_go">About app</string>
+    <string name="turn_off">Turn off</string>
 </resources>

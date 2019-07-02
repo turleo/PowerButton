@@ -3,9 +3,9 @@
             android:shortcutId="compose"
             android:enabled="true"
             android:icon="@mipmap/ic_launcher"
-            android:shortcutShortLabel="@string/about_act"
-            android:shortcutLongLabel="@string/about_act"
-            android:shortcutDisabledMessage="@string/about_act">
+            android:shortcutShortLabel="@string/about_go"
+            android:shortcutLongLabel="@string/about_go"
+            android:shortcutDisabledMessage="@string/about_go">
         <intent
                 android:action="android.intent.action.VIEW"
                 android:targetPackage="space.bm835.pb"

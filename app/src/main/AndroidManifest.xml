@@ -21,7 +21,7 @@
         </activity>
         <activity
                 android:name=".TurnOffActivity"
-                android:label="Turn off">
+                android:label="@string/turn_off">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
