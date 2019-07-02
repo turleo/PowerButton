@@ -6,4 +6,5 @@
     <string name="about">Software power button\nGitHub: https://github.com/BM835/PowerButton</string>
     <string name="about_act">About</string>
     <string name="Uninstall">Give back admin rights</string>
+    <string name="about_go">About app</string>
 </resources>

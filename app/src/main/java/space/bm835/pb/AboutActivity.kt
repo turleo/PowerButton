@@ -23,5 +23,14 @@ class AboutActivity : AppCompatActivity() {
         val devicePolicyManager = this.getSystemService(Context.DEVICE_POLICY_SERVICE) as DevicePolicyManager
         val componentName = ComponentName(this, AdminManager::class.java)
         devicePolicyManager.removeActiveAdmin(componentName)
+        val packageURI = Uri.parse("package:space.bm835.pb")
+        val uninstallIntent = Intent(Intent.ACTION_DELETE, packageURI)
+        startActivity(uninstallIntent)
+    }
+
+    fun onClickAbout(v : View){
+        val packageURI = Uri.parse("package:space.bm835.pb")
+        val uninstallIntent = Intent(android.provider.Settings.ACTION_APPLICATION_DETAILS_SETTINGS, packageURI)
+        startActivity(uninstallIntent)
     }
 }
