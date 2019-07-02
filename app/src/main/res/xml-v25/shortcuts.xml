@@ -1,0 +1,19 @@
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+            android:shortcutId="compose"
+            android:enabled="true"
+            android:icon="@mipmap/ic_launcher"
+            android:shortcutShortLabel="@string/about_act"
+            android:shortcutLongLabel="@string/about_act"
+            android:shortcutDisabledMessage="@string/about_act">
+        <intent
+                android:action="android.intent.action.VIEW"
+                android:targetPackage="space.bm835.pb"
+                android:targetClass="space.bm835.pb.AboutActivity" />
+        <!-- If your shortcut is associated with multiple intents, include them
+             here. The last intent in the list determines what the user sees when
+             they launch this shortcut. -->
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+    <!-- Specify more shortcuts here. -->
+</shortcuts>
