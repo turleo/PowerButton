@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Кнопка блокировки</string>
     <string name="please_grant">Пожалуйста, разрешите этому приложению блокировать экран</string>
@@ -10,8 +9,4 @@ GitHub: https://github.com/BM835/PowerButton\n
     <string name="Uninstall">Удалить</string>
     <string name="about_go">О приложении</string>
     <string name="turn_off">Выключить</string>
-</resources>
-esources>
-    <string name="app_name">Кнопка блокировки</string>
-    <string name="please_grant">Пожалуйста, разрешите этому приложению блокировать экран</string>
 </resources>
