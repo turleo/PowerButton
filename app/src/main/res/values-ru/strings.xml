@@ -2,4 +2,16 @@
 <resources>
     <string name="app_name">Кнопка блокировки</string>
     <string name="please_grant">Пожалуйста, разрешите этому приложению блокировать экран</string>
+     
+    <string name="crash_toast_text">Произошла ошибка. Отправка краш репорта</string>
+    <string name="about">Программная кнопка блокировки\n
+GitHub: https://github.com/BM835/PowerButton\n
+Сайт: https://bm835.space/PowerButton/</string>
+    <string name="Uninstall">Удалить</string>
+    <string name="about_go">О приложении</string>
+    <string name="turn_off">Выключить</string>
+</resources>
+esources>
+    <string name="app_name">Кнопка блокировки</string>
+    <string name="please_grant">Пожалуйста, разрешите этому приложению блокировать экран</string>
 </resources>
