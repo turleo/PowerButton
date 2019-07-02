@@ -4,6 +4,14 @@ import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 
+import android.content.Context
+import android.content.ComponentName
+import android.app.admin.DevicePolicyManager
+import android.content.Intent
+import android.net.Uri
+
+
+
 class AboutActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -11,7 +19,9 @@ class AboutActivity : AppCompatActivity() {
         setContentView(R.layout.activity_about)
     }
 
-    override fun onClickUn(v : View){
-        //TODO uninstall button
+    fun onClickUn(v : View){
+        val devicePolicyManager = this.getSystemService(Context.DEVICE_POLICY_SERVICE) as DevicePolicyManager
+        val componentName = ComponentName(this, AdminManager::class.java)
+        devicePolicyManager.removeActiveAdmin(componentName)
     }
 }
