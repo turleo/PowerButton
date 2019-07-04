@@ -12,10 +12,6 @@ import android.widget.Toast
 
 class Widget : AppWidgetProvider() {
 
-    //Administrator component
-    internal var devicePolicyManager: DevicePolicyManager? = null
-    internal var componentName: ComponentName? = null
-
     override fun onUpdate(context: Context, appWidgetManager: AppWidgetManager, appWidgetIds: IntArray) {
 
         val N = appWidgetIds.size
@@ -46,26 +42,8 @@ class Widget : AppWidgetProvider() {
     }
 
     override fun onReceive(context: Context, intent: Intent) {
-
-        //Check if the intent we received is the widget clicked
-        if (intent.action == ACTION_WIDGET_CLICKED) {
-            //Initialize the administrator component here because we need to use it here only
-            devicePolicyManager = context.getSystemService(Context.DEVICE_POLICY_SERVICE) as DevicePolicyManager
-            componentName = ComponentName(context, AdminManager::class.java)
-
-            //Check if administrator permission granted first before executing, because we don't know if user would disable it in the settings
-            if (devicePolicyManager!!.isAdminActive(componentName)) {
-                //Looks like user has granted administrator permission, we just need to lock the screen
-                devicePolicyManager!!.lockNow()
-            } else {
-                //Looks like administrator permission is not granted, so show the user current situation
-                Toast.makeText(
-                    context,
-                    "Device administrator permission is not granted, the application could not perform requested action",
-                    Toast.LENGTH_LONG
-                ).show()
-            }
-        }
+        val turn = powerCode()
+        turn.turnOff()
 
         //It is necessary to call super here
         super.onReceive(context, intent)

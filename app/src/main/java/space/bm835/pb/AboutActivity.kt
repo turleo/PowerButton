@@ -1,15 +1,10 @@
 package space.bm835.pb
 
-import android.support.v7.app.AppCompatActivity
-import android.os.Bundle
-import android.view.View
-
-import android.content.Context
-import android.content.ComponentName
-import android.app.admin.DevicePolicyManager
 import android.content.Intent
 import android.net.Uri
-
+import android.os.Bundle
+import android.support.v7.app.AppCompatActivity
+import android.view.View
 
 
 class AboutActivity : AppCompatActivity() {
@@ -20,12 +15,10 @@ class AboutActivity : AppCompatActivity() {
     }
 
     fun onClickUn(v : View){
-        val devicePolicyManager = this.getSystemService(Context.DEVICE_POLICY_SERVICE) as DevicePolicyManager
-        val componentName = ComponentName(this, AdminManager::class.java)
-        devicePolicyManager.removeActiveAdmin(componentName)
-        val packageURI = Uri.parse("package:space.bm835.pb")
-        val uninstallIntent = Intent(Intent.ACTION_UNINSTALL_PACKAGE, packageURI)
-        startActivity(uninstallIntent)
+
+        startActivity(Intent(Intent.ACTION_UNINSTALL_PACKAGE).apply {
+            data = Uri.parse("package:$packageName")
+        })
     }
 
     fun onClickAbout(v : View){
