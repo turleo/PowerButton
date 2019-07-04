@@ -2,3 +2,5 @@
 
 # PowerButton
 Turn off device screen without clicking the hardware button
+
+Icon made by [Recep Kutuk](https://www.flaticon.com/authors/recep-kutuk) from www.flaticon.com
