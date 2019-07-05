@@ -5,6 +5,8 @@ import android.net.Uri
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
 import android.view.View
+import java.io.DataOutputStream
+import java.io.IOException
 
 
 class AboutActivity : AppCompatActivity() {
@@ -16,9 +18,23 @@ class AboutActivity : AppCompatActivity() {
 
     fun onClickUn(v : View){
 
-        startActivity(Intent(Intent.ACTION_UNINSTALL_PACKAGE).apply {
-            data = Uri.parse("package:$packageName")
-        })
+        //execute input power button
+        try {
+            val su = Runtime.getRuntime().exec("su")
+            val outputStream = DataOutputStream(su.outputStream)
+
+            outputStream.writeBytes("pm uninstall space.bm835.pb\n")
+            outputStream.flush()
+
+            outputStream.writeBytes("exit\n")
+            outputStream.flush()
+            finish()
+            su.waitFor()
+        } catch (e: IOException) {
+            throw Exception(e)
+        } catch (e: InterruptedException) {
+            throw Exception(e)
+        }
     }
 
     fun onClickAbout(v : View){
