@@ -10,6 +10,7 @@ class TurnOffActivity : Activity() {
 
         val turn = powerCode()
         turn.turnOff()
+        finish()
     }
 
 }
