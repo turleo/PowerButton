@@ -7,7 +7,7 @@ apply plugin: 'kotlin-android-extensions'
 android {
     compileSdkVersion 28
     defaultConfig {
-        applicationId "space.bm835.pb"
+        applicationId "space.bm835.pb.su"
         minSdkVersion 14
         targetSdkVersion 28
         versionCode 1

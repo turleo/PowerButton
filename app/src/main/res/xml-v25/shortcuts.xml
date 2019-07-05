@@ -8,8 +8,8 @@
             android:shortcutDisabledMessage="@string/about_go">
         <intent
                 android:action="android.intent.action.VIEW"
-                android:targetPackage="space.bm835.pb"
-                android:targetClass="space.bm835.pb.AboutActivity" />
+                android:targetPackage="space.bm835.pb.su"
+                android:targetClass="space.bm835.pb.su.AboutActivity" />
         <!-- If your shortcut is associated with multiple intents, include them
              here. The last intent in the list determines what the user sees when
              they launch this shortcut. -->
