@@ -1,0 +1,33 @@
+#top{
+	width: 100%;
+	text-aligin: center;
+	background-color: #000;
+	color:#fff;
+}
+body{
+	vertical-align: middle;
+	margin-left: auto; margin-right: auto;
+	background-color: #000;
+	max-width: 600px;
+}
+#get{
+	vertical-align: middle;
+	margin-left: auto; margin-right: auto;
+}
+#about{
+	font-family: 'Playfair Display', serif;
+	color: #FFF;
+	font-size: 30px;
+	text-align: center;
+}
+a:link{
+    color: white;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+a:visited{
+	color: white;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+::selection {
+	background-color: #CF2C00;
+}
