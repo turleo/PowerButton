@@ -20,13 +20,21 @@ body{
 	font-size: 30px;
 	text-align: center;
 }
+#text_like_link{
+    color: white;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 20px;
+    text-decoration: underline;
+}
 a:link{
     color: white;
     font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 20px;
 }
 a:visited{
 	color: white;
 	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 20px;
 }
 ::selection {
 	background-color: #CF2C00;
