@@ -2,8 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
           xmlns:tools="http://schemas.android.com/tools"
           package="space.bm835.pb"
-          android:versionCode="1"
-          android:versionName="1">
+          android:versionCode="2"
+          android:versionName="2">
 
     <uses-permission android:name="android.permission.INTERNET"/>
 
@@ -43,7 +43,8 @@
                 <action android:name="android.app.action.DEVICE_ADMIN_DISABLED"/>
             </intent-filter>
         </receiver>
-        <receiver android:name=".Widget">
+        <receiver
+                android:name=".Widget">
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
                 <action android:name="space.bm835.pb.Widget.ACTION_WIDGET_CLICKED"/>

@@ -12,11 +12,17 @@
     <bookmark url="file://$PROJECT_DIR$/app/src/main/java/space/bm835/pb/AboutActivity.kt" line="0" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< Updated upstream
     <list default="true" id="81086d5c-6162-4b5b-af1d-24db6f62be77" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/space/bm835/pb/AboutActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/space/bm835/pb/AboutActivity.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_about.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_about.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
+=======
+    <list default="true" id="81086d5c-6162-4b5b-af1d-24db6f62be77" name="Default Changelist" comment="activity now closes after turning off">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app.aab" beforeDir="false" />
+>>>>>>> Stashed changes
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,56 +50,132 @@
           <entry key="project.open.time.34" value="1" />
           <entry key="project.open.time.35" value="1" />
           <entry key="project.open.time.46" value="1" />
+          <entry key="project.open.time.49" value="1" />
           <entry key="project.open.time.52" value="1" />
+<<<<<<< Updated upstream
           <entry key="project.opened" value="4" />
+=======
+          <entry key="project.open.time.53" value="1" />
+          <entry key="project.open.time.62" value="1" />
+          <entry key="project.open.time.63" value="1" />
+          <entry key="project.opened" value="9" />
+>>>>>>> Stashed changes
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+<<<<<<< Updated upstream
           <entry key="gradle" value="2" />
           <entry key="kt" value="16" />
           <entry key="png" value="1" />
           <entry key="properties" value="1" />
           <entry key="xml" value="19" />
+=======
+          <entry key="Translations Editor" value="1" />
+          <entry key="gradle" value="5" />
+          <entry key="java" value="1" />
+          <entry key="kt" value="48" />
+          <entry key="md" value="2" />
+          <entry key="png" value="9" />
+          <entry key="properties" value="1" />
+          <entry key="xml" value="53" />
+>>>>>>> Stashed changes
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
+<<<<<<< Updated upstream
           <entry key="Groovy" value="2" />
           <entry key="Image" value="1" />
           <entry key="Kotlin" value="16" />
           <entry key="Properties" value="1" />
           <entry key="XML" value="19" />
+=======
+          <entry key="" value="1" />
+          <entry key="Groovy" value="5" />
+          <entry key="Image" value="9" />
+          <entry key="JAVA" value="1" />
+          <entry key="Kotlin" value="48" />
+          <entry key="Properties" value="1" />
+          <entry key="Specification" value="2" />
+          <entry key="XML" value="53" />
+>>>>>>> Stashed changes
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
+<<<<<<< Updated upstream
           <entry key="gradle" value="35" />
           <entry key="kt" value="389" />
           <entry key="txt" value="84" />
           <entry key="xml" value="399" />
+=======
+          <entry key="gradle" value="42" />
+          <entry key="java" value="3" />
+          <entry key="kt" value="1069" />
+          <entry key="md" value="55" />
+          <entry key="txt" value="382" />
+          <entry key="xml" value="544" />
+>>>>>>> Stashed changes
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
+<<<<<<< Updated upstream
           <entry key="Groovy" value="35" />
           <entry key="Kotlin" value="389" />
           <entry key="PLAIN_TEXT" value="84" />
           <entry key="XML" value="399" />
+=======
+          <entry key="Groovy" value="42" />
+          <entry key="JAVA" value="3" />
+          <entry key="Kotlin" value="1069" />
+          <entry key="PLAIN_TEXT" value="382" />
+          <entry key="Specification" value="55" />
+          <entry key="XML" value="544" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.vcs.git.usages">
+        <counts>
+          <entry key="git.branch.create.new" value="1" />
+>>>>>>> Stashed changes
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="69" selection-start-line="16" selection-start-column="69" selection-end-line="16" selection-end-column="69" />
+            <state relative-caret-position="510">
+              <caret line="30" column="29" lean-forward="true" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
             </state>
           </provider>
-          <provider editor-type-id="android-manifest" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/values-ru/strings.xml">
+          <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
+            <state relative-caret-position="272">
+              <caret line="16" column="69" selection-start-line="16" selection-start-column="69" selection-end-line="16" selection-end-column="69" />
+=======
+            <state relative-caret-position="136">
+              <caret line="8" column="71" selection-start-line="8" selection-start-column="71" selection-end-line="8" selection-end-column="71" />
+>>>>>>> Stashed changes
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_about.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="455">
+              <caret line="47" column="55" selection-start-line="47" selection-start-column="55" selection-end-line="47" selection-end-column="55" />
+            </state>
+          </provider>
+          <provider editor-type-id="android-designer2" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -121,6 +203,7 @@
           </provider>
         </entry>
       </file>
+<<<<<<< Updated upstream
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
           <provider selected="true" editor-type-id="text-editor">
@@ -170,11 +253,19 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
               <caret line="7" column="58" selection-start-line="7" selection-start-column="58" selection-end-line="7" selection-end-column="58" />
+=======
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/space/bm835/pb/su/AboutActivity.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="23" column="63" selection-start-line="23" selection-start-column="63" selection-end-line="23" selection-end-column="63" />
+>>>>>>> Stashed changes
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< Updated upstream
         <entry file="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
@@ -188,6 +279,15 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="17">
               <caret line="1" selection-start-line="1" selection-end-line="1" />
+=======
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/space/bm835/pb/su/TurnOffActivity.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+              <folding>
+                <element signature="e#27#79#0" expanded="true" />
+              </folding>
+>>>>>>> Stashed changes
             </state>
           </provider>
         </entry>
@@ -204,6 +304,21 @@
       </list>
     </option>
   </component>
+<<<<<<< Updated upstream
+=======
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>package</find>
+    </findStrings>
+  </component>
+  <component name="GenerateSignedApkSettings">
+    <option name="EXPORT_PRIVATE_KEY" value="false" />
+    <option name="KEY_STORE_PATH" value="E:\andrsdkkey\key.jks" />
+    <option name="KEY_ALIAS" value="powerbutton" />
+    <option name="REMEMBER_PASSWORDS" value="true" />
+    <option name="BUILD_TARGET_KEY" value="apk" />
+  </component>
+>>>>>>> Stashed changes
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -2599,28 +2714,55 @@
         <option value="$PROJECT_DIR$/app/src/main/res/xml/shortcuts.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/xml-v25/shortcuts.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/space/bm835/pb/App.kt" />
+<<<<<<< Updated upstream
         <option value="$PROJECT_DIR$/app/build.gradle" />
         <option value="$PROJECT_DIR$/app/src/main/java/space/bm835/pb/TurnOffActivity.kt" />
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/styles.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/space/bm835/pb/AboutActivity.kt" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_about.xml" />
+=======
+        <option value="$PROJECT_DIR$/app/src/main/res/values/styles.xml" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/app/src/main/java/space/bm835/pb/ButtonTileService.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/space/bm835/pb/Widget.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/space/bm835/pb/TurnOffActivity.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/space/bm835/pb/AboutActivity.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/space/bm835/pb/powerCode.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/space/bm835/su/powerCode.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/space/bm835/pb/su/App.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/space/bm835/pb/su/ButtonTileService.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/space/bm835/pb/su/Widget.kt" />
+        <option value="$PROJECT_DIR$/app/src/androidTest/java/space/bm835/pb/su/ExampleInstrumentedTest.kt" />
+        <option value="$PROJECT_DIR$/app/src/test/java/space/bm835/pb/su/ExampleUnitTest.kt" />
+        <option value="$PROJECT_DIR$/app/build/generated/source/buildConfig/debug/space/bm835/pb/su/BuildConfig.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/xml-v25/shortcuts.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/space/bm835/pb/su/TurnOffActivity.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/space/bm835/pb/su/powerCode.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_about.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/space/bm835/pb/su/AboutActivity.kt" />
+        <option value="$PROJECT_DIR$/app/build.gradle" />
+        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values-ru/strings.xml" />
+>>>>>>> Stashed changes
         <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="531" />
-    <option name="width" value="1400" />
-    <option name="height" value="973" />
+    <option name="x" value="299" />
+    <option name="y" value="16" />
+    <option name="width" value="140" />
+    <option name="height" value="39" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+<<<<<<< Updated upstream
       <pane id="AndroidView">
         <subPane>
           <expand>
@@ -2649,6 +2791,34 @@
               <item name="app" type="feadf853:AndroidModuleNode" />
               <item name="res" type="d4f16f75:AndroidResFolderNode" />
               <item name="values" type="ddeffd01:AndroidResFolderTypeNode" />
+=======
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="pb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pb" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="pb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pb" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+>>>>>>> Stashed changes
+            </path>
+            <path>
+              <item name="pb" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Gradle Scripts" type="ae0cef3a:AndroidBuildScriptsGroupNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="AndroidView">
+        <subPane>
+          <expand>
+            <path>
+              <item name="pb" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
             </path>
             <path>
               <item name="pb" type="1abcf292:AndroidViewProjectNode" />
@@ -2663,10 +2833,15 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="ExportApk.ApkPath" value="D:\pb\app" />
+    <property name="ExportApk.BuildVariants" value="release" />
+    <property name="ExportApk.SignV1" value="true" />
+    <property name="ExportApk.SignV2" value="true" />
     <property name="android.project.structure.last.selected" value="app" />
     <property name="android.project.structure.proportion" value="0.15" />
     <property name="android.sdk.path" value="D:/andr_sdk" />
     <property name="device.picker.selection" value="a6a590e7" />
+    <property name="last_opened_file_path" value="E:/andrsdkkey/key.jks" />
     <property name="not.eligible.for.single.variant.sync" value="true" />
     <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
   </component>
@@ -2773,7 +2948,88 @@
       <option name="project" value="LOCAL" />
       <updated>1562053351153</updated>
     </task>
+<<<<<<< Updated upstream
     <option name="localTasksCounter" value="3" />
+=======
+    <task id="LOCAL-00003" summary="About app in About activity button added">
+      <created>1562055371440</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1562055371440</updated>
+    </task>
+    <task id="LOCAL-00004" summary="icon changed">
+      <created>1562135626884</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1562135626884</updated>
+    </task>
+    <task id="LOCAL-00005" summary="`DayNight` theme">
+      <created>1562137341176</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1562137341184</updated>
+    </task>
+    <task id="LOCAL-00006" summary="icon credits added">
+      <created>1562224638948</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1562224638948</updated>
+    </task>
+    <task id="LOCAL-00007" summary="su branch created">
+      <created>1562226754411</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1562226754411</updated>
+    </task>
+    <task id="LOCAL-00008" summary="uninstall button works with su">
+      <created>1562303334971</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1562303334971</updated>
+    </task>
+    <task id="LOCAL-00009" summary="package name changed to `space.bm835.pb.su`">
+      <created>1562307992353</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1562307992353</updated>
+    </task>
+    <task id="LOCAL-00010" summary="package name changed to `space.bm835.pb.su`">
+      <created>1562308216479</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1562308216479</updated>
+    </task>
+    <task id="LOCAL-00011" summary="activity now closes after turning off">
+      <created>1562312437251</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1562312437251</updated>
+    </task>
+    <task id="LOCAL-00012" summary="icons changed">
+      <created>1562388973023</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1562388973080</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Link to privacy policy added">
+      <created>1562389663286</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1562389663286</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
+>>>>>>> Stashed changes
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -2782,7 +3038,11 @@
     <layout>
       <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="1" />
+<<<<<<< Updated upstream
       <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.32995737" />
+=======
+      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.23560767" />
+>>>>>>> Stashed changes
       <window_info id="Structure" order="3" side_tool="true" />
       <window_info id="Build Variants" order="4" side_tool="true" />
       <window_info id="Image Layers" order="5" />
@@ -2794,8 +3054,13 @@
       <window_info anchor="bottom" id="Android Profiler" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" />
       <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
+<<<<<<< Updated upstream
       <window_info anchor="bottom" id="Version Control" order="5" weight="0.329718" />
       <window_info active="true" anchor="bottom" id="Build" order="6" visible="true" weight="0.329718" />
+=======
+      <window_info anchor="bottom" id="Version Control" order="5" weight="0.3275488" />
+      <window_info active="true" anchor="bottom" id="Build" order="6" visible="true" weight="0.29934925" />
+>>>>>>> Stashed changes
       <window_info anchor="bottom" id="Logcat" order="7" weight="0.329718" />
       <window_info anchor="bottom" id="Find" order="8" weight="0.329718" />
       <window_info anchor="bottom" id="Messages" order="9" />
@@ -2814,19 +3079,37 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="about activity added; shortcuts added" />
     <MESSAGE value="delete adnmin right button now works" />
+<<<<<<< Updated upstream
     <option name="LAST_COMMIT_MESSAGE" value="delete adnmin right button now works" />
+=======
+    <MESSAGE value="About app in About activity button added" />
+    <MESSAGE value="icon changed" />
+    <MESSAGE value="`DayNight` theme" />
+    <MESSAGE value="icon credits added" />
+    <MESSAGE value="su branch created" />
+    <MESSAGE value="uninstall button works with su" />
+    <MESSAGE value="package name changed to `space.bm835.pb.su`" />
+    <MESSAGE value="activity now closes after turning off" />
+    <MESSAGE value="icons changed" />
+    <MESSAGE value="Link to privacy policy added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Link to privacy policy added" />
+>>>>>>> Stashed changes
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/widget.xml">
       <provider editor-type-id="text-editor" />
       <provider selected="true" editor-type-id="android-designer2" />
+<<<<<<< Updated upstream
     </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor" />
+=======
+>>>>>>> Stashed changes
     </entry>
     <entry file="file://$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+<<<<<<< Updated upstream
     <entry file="file://$PROJECT_DIR$/app/src/test/java/space/bm835/pb/ExampleUnitTest.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -2855,6 +3138,29 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/space/bm835/pb/ButtonTileService.kt">
+=======
+    <entry file="file://$PROJECT_DIR$/app/src/test/java/space/bm835/su/ExampleUnitTest.kt" />
+    <entry file="file://$PROJECT_DIR$/app/src/androidTest/java/space/bm835/su/ExampleInstrumentedTest.kt" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/xml/shortcuts.xml" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/space/bm835/su/App.kt" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/space/bm835/pb/AdminManager.kt" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher_round.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher_round.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-v24/ic_launcher_foreground.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/ic_launcher_background.xml">
+>>>>>>> Stashed changes
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-187">
           <caret line="1" selection-start-line="1" selection-end-line="1" />
@@ -2875,6 +3181,7 @@
     <entry file="file://$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
+<<<<<<< Updated upstream
     <entry file="file://$PROJECT_DIR$/app/src/main/res/xml-v25/shortcuts.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -2886,12 +3193,29 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/space/bm835/pb/AdminManager.kt">
+=======
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/styles.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="104" selection-start-line="9" selection-start-column="104" selection-end-line="9" selection-end-column="104" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/xml/device_admin_info.xml" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/space/bm835/su/ButtonTileService.kt" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/space/bm835/su/Widget.kt" />
+    <entry file="file://$PROJECT_DIR$/README.md">
+>>>>>>> Stashed changes
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
+<<<<<<< Updated upstream
     <entry file="file://$PROJECT_DIR$/app/src/main/java/space/bm835/pb/App.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -2932,11 +3256,69 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="58" selection-start-line="7" selection-start-column="58" selection-end-line="7" selection-end-column="58" />
+=======
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/space/bm835/su/TurnOffActivity.kt" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/space/bm835/su/AboutActivity.kt" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/space/bm835/su/powerCode.kt" />
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build/generated/source/buildConfig/debug/space/bm835/pb/su/BuildConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+    <entry file="file://$PROJECT_DIR$/app/src/test/java/space/bm835/pb/su/ExampleUnitTest.kt">
       <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="22" selection-start-column="22" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/androidTest/java/space/bm835/pb/su/ExampleInstrumentedTest.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="22" selection-start-column="22" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/space/bm835/pb/su/Widget.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="23" selection-start-column="23" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/space/bm835/pb/su/ButtonTileService.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="22" selection-start-column="22" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/space/bm835/pb/su/App.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="22" selection-start-column="22" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/space/bm835/pb/su/powerCode.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+          <folding>
+            <element signature="e#27#85#0" expanded="true" />
+          </folding>
+>>>>>>> Stashed changes
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/space/bm835/pb/su/TurnOffActivity.kt">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
         <state relative-caret-position="476">
           <caret line="28" column="51" selection-start-line="28" selection-start-column="51" selection-end-line="28" selection-end-column="51" />
         </state>
@@ -2949,6 +3331,20 @@
           <folding>
             <element signature="e#24#288#0" expanded="true" />
           </folding>
+=======
+        <state relative-caret-position="34">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding>
+            <element signature="e#27#79#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/space/bm835/pb/su/AboutActivity.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="23" column="63" selection-start-line="23" selection-start-column="63" selection-end-line="23" selection-end-column="63" />
+>>>>>>> Stashed changes
         </state>
       </provider>
     </entry>
@@ -2964,10 +3360,50 @@
       </provider>
       <provider editor-type-id="android-designer2" />
     </entry>
+<<<<<<< Updated upstream
     <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
+=======
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-manifest" />
+    </entry>
+    <entry file="android-dummy://D:/pb/app/Translations Editor">
+      <provider selected="true" editor-type-id="string-resource-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values-ru/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="71" selection-start-line="8" selection-start-column="71" selection-end-line="8" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_about.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="455">
+          <caret line="47" column="55" selection-start-line="47" selection-start-column="55" selection-end-line="47" selection-end-column="55" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="193" selection-start-line="5" selection-start-column="193" selection-end-line="5" selection-end-column="193" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="29" lean-forward="true" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
+>>>>>>> Stashed changes
         </state>
       </provider>
     </entry>
