@@ -5,7 +5,8 @@
     <string name="crash_toast_text">Произошла ошибка. Отправка краш репорта</string>
     <string name="about">Программная кнопка блокировки\n
 GitHub: https://github.com/BM835/PowerButton\n
-Сайт: https://bm835.space/PowerButton/</string>
+Сайт: https://bm835.space/PowerButton/\n
+Политика конфиденцальности: https://bm835.space/PowerButton/policy.html</string>
     <string name="Uninstall">Удалить</string>
     <string name="about_go">О приложении</string>
     <string name="turn_off">Выключить</string>
