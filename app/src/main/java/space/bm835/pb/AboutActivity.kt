@@ -8,8 +8,9 @@ import android.content.Context
 import android.content.ComponentName
 import android.app.admin.DevicePolicyManager
 import android.content.Intent
+import android.content.pm.PackageManager
 import android.net.Uri
-
+import android.widget.TextView
 
 
 class AboutActivity : AppCompatActivity() {
@@ -18,7 +19,11 @@ class AboutActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_about)
 
+        val buildInfoText = findViewById<TextView>(R.id.textView2)
 
+        val manager = this.packageManager
+        val info = manager.getPackageInfo(this.packageName, PackageManager.GET_ACTIVITIES)
+        buildInfoText.text = info.versionName +'('+ info.versionCode +") master branch"
     }
 
     fun onClickUn(v : View){
