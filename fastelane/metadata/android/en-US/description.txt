@@ -1,0 +1,5 @@
+Program power button
+
+App, who can lock screen without using hardware button
+
+Uses administration privileges to lock screen
