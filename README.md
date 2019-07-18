@@ -4,6 +4,10 @@
 # PowerButton
 Turn off device screen without clicking the hardware button
 
+[![Get it on Google Play](https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png)](https://play.google.com/store/apps/details?id=space.bm835.pb&utm_source=git&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1)
+[![Get it on F-Droid](https://fdroid.gitlab.io/artwork/badge/get-it-on.png)](https://f-droid.org/ru/packages/space.bm835.pb/)
+[![Get it on GitHub releases](https://i.ibb.co/q0mdc4Z/get-it-on-github.png)](https://github.com/bm835/powerbutton/releases)
+
 Icon made by [Recep Kutuk](https://www.flaticon.com/authors/recep-kutuk) from www.flaticon.com
 
 ## Screenshots
