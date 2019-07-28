@@ -60,19 +60,6 @@ class ButtonTileService : TileService() {
         // Called when the tile is no longer visible
     }
 
-    /*protected fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent) {
-        super.onActivityResult(requestCode, resultCode, data)
-        when (requestCode) {
-            RESULT_ENABLE -> if (resultCode == Activity.RESULT_OK) {
-                Toast.makeText(this, "You have enabled the Admin Device features", Toast.LENGTH_SHORT)
-                    .show()
-            } else {
-                Toast.makeText(this, "Problem to enable the Admin Device features", Toast.LENGTH_SHORT)
-                    .show()
-            }
-        }
-    }*/
-
     companion object {
 
         internal val RESULT_ENABLE = 1
