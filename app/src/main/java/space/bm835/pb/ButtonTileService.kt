@@ -29,15 +29,9 @@ class ButtonTileService : TileService() {
             //Looks like administrator permission is not granted, so show the user current situation
             Toast.makeText(
                 this,
-                "Device administrator permission is not granted, the application could not perform requested action",
+                R.string.sorry_open_activity_first,
                 Toast.LENGTH_LONG
             ).show()
-
-            //button1 clicked, so we request administrator permission
-            val intent = Intent(DevicePolicyManager.ACTION_ADD_DEVICE_ADMIN)
-            intent.putExtra(DevicePolicyManager.EXTRA_DEVICE_ADMIN, componentName)
-            intent.putExtra(DevicePolicyManager.EXTRA_ADD_EXPLANATION, getString(R.string.please_grant))
-            startActivity(intent)
         }
         // Called when the user click the tile
     }
@@ -65,6 +59,19 @@ class ButtonTileService : TileService() {
 
         // Called when the tile is no longer visible
     }
+
+    /*protected fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent) {
+        super.onActivityResult(requestCode, resultCode, data)
+        when (requestCode) {
+            RESULT_ENABLE -> if (resultCode == Activity.RESULT_OK) {
+                Toast.makeText(this, "You have enabled the Admin Device features", Toast.LENGTH_SHORT)
+                    .show()
+            } else {
+                Toast.makeText(this, "Problem to enable the Admin Device features", Toast.LENGTH_SHORT)
+                    .show()
+            }
+        }
+    }*/
 
     companion object {
 
