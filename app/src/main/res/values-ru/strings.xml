@@ -10,4 +10,5 @@ GitHub: https://github.com/BM835/PowerButton\n
     <string name="Uninstall">Удалить</string>
     <string name="about_go">О приложении</string>
     <string name="turn_off">Выключить</string>
+    <string name="sorry_open_activity_first">К сожалению вы должны сначала откыть приложение в лаунчере</string>
 </resources>
