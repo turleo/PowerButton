@@ -29,15 +29,9 @@ class ButtonTileService : TileService() {
             //Looks like administrator permission is not granted, so show the user current situation
             Toast.makeText(
                 this,
-                "Device administrator permission is not granted, the application could not perform requested action",
+                R.string.sorry_open_activity_first,
                 Toast.LENGTH_LONG
             ).show()
-
-            //button1 clicked, so we request administrator permission
-            val intent = Intent(DevicePolicyManager.ACTION_ADD_DEVICE_ADMIN)
-            intent.putExtra(DevicePolicyManager.EXTRA_DEVICE_ADMIN, componentName)
-            intent.putExtra(DevicePolicyManager.EXTRA_ADD_EXPLANATION, getString(R.string.please_grant))
-            startActivity(intent)
         }
         // Called when the user click the tile
     }
