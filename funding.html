@@ -12,7 +12,8 @@
         <meta property="og:image" content="https://raw.githubusercontent.com/BM835/PowerButton/master/app/src/main/ic_launcher-web.png" />
         <link rel="apple-touch-icon image_src" href="https://raw.githubusercontent.com/BM835/PowerButton/master/app/src/main/ic_launcher-web.png">
 		<link rel="stylesheet" href="style.css">
-			<script async src="https://www.googletagmanager.com/gtag/js?id=UA-134644574-1"></script>
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script><script type="text/javascript" src="https://blockchain.info/Resources/js/pay-now-button.js"></script>
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-134644574-1"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
@@ -35,6 +36,26 @@
    	</div>
         <div id="about">
 			<a href="https://www.donationalerts.com/r/blidingmage835"><h4 style="font-size: 40px;">DonationAlerts</h4></a>
+   	</div>
+       <div id="about">
+       	<a href="https://www.blockchain.com/btc/address/127Yoin4ZJYmynZZySUo7vf17SJkuGsiaC"><h4 style="font-size: 40px;">Bitcoin</h4></a>
+       	<div style="font-size:16px;margin:0 auto;width:300px" class="blockchain-btn"
+			     data-address="127Yoin4ZJYmynZZySUo7vf17SJkuGsiaC"
+			     data-shared="false">
+			    <div class="blockchain stage-begin">
+			        <img src="https://blockchain.info/Resources/buttons/donate_64.png"/>
+			    </div>
+			    <div class="blockchain stage-ready">
+			         <p align="center">Please Donate To Bitcoin Address: <b>[[address]]</b></p>
+			         <p align="center" class="qr-code" style="filter: invert(100%);"></p>
+			    </div>
+			    <div class="blockchain stage-paid">
+			         Donation of <b>[[value]] BTC</b> Received. Thank You.
+			    </div>
+			    <div class="blockchain stage-error">
+			        <font color="red">[[error]]</font>
+			    </div>
+			</div>
    	</div>
 		<div id="screenshots"></div>
 		<hr/>
