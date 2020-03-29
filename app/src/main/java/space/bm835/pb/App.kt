@@ -6,7 +6,7 @@ import org.acra.ReportingInteractionMode
 import org.acra.annotation.ReportsCrashes
 
 @ReportsCrashes(
-    mailTo = "bugtracker@bm835.space",
+    mailTo = "leonid@national.shitposting.agency",
     mode = ReportingInteractionMode.TOAST,
     resToastText = R.string.crash_toast_text
 )

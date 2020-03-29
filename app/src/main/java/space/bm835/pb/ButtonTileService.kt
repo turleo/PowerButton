@@ -6,6 +6,7 @@ import android.content.ComponentName
 import android.content.Context
 import android.content.Intent
 import android.os.Build
+import android.service.quicksettings.Tile
 import android.service.quicksettings.TileService
 import android.widget.Toast
 
@@ -50,8 +51,15 @@ class ButtonTileService : TileService() {
 
     override fun onStartListening() {
         super.onStartListening()
+        devicePolicyManager = getSystemService(Context.DEVICE_POLICY_SERVICE) as DevicePolicyManager
+        componentName = ComponentName(this, AdminManager::class.java)
+        val tile = qsTile // this is getQsTile() method form java, used in Kotlin as a property
 
         // Called when the Tile becomes visible
+        if (!devicePolicyManager!!.isAdminActive(componentName)) {
+            tile.state = Tile.STATE_UNAVAILABLE
+            tile.updateTile()
+        }
     }
 
     override fun onStopListening() {

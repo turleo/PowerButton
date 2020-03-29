@@ -7,5 +7,5 @@
     <string name="Uninstall">Delete</string>
     <string name="about_go">About app</string>
     <string name="turn_off">Turn off</string>
-    <string name="sorry_open_activity_first">We are sorry, but you need to open launcher first</string>
+    <string name="sorry_open_activity_first">We are sorry, but you need to open this app from launcher first</string>
 </resources>
